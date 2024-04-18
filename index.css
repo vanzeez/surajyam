@@ -177,7 +177,7 @@
   left: 538px;
   width: 388px;
   height: 172px;
-  font-size: var(--font-size-11xl);
+  font-size: var(--h1-30px-sb-size);
 }
 .desktop-1,
 .frame-parent {
@@ -192,12 +192,12 @@
   max-width: 103%;
   text-align: center;
   font-size: var(--font-size-21xl);
-  color: var(--color-white);
+  color: var(--grey-white);
   font-family: var(--base-field-placeholder);
 }
 .desktop-1 {
   width: 100%;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   overflow: hidden;
   display: flex;
   flex-direction: row;

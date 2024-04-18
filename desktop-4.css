@@ -86,7 +86,7 @@
   color: var(--color-darkorange-100);
 }
 .span {
-  color: var(--color-white);
+  color: var(--grey-white);
 }
 .your-contribution-is-immensely {
   margin: 0;
@@ -125,7 +125,7 @@
   font-size: var(--base-field-placeholder-size);
   line-height: 21px;
   font-family: var(--base-field-placeholder);
-  color: var(--color-white);
+  color: var(--grey-white);
   text-align: left;
 }
 .icon-heading {
@@ -425,7 +425,7 @@
 }
 .content5 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
   box-sizing: border-box;
@@ -511,7 +511,7 @@
 }
 .content7 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
   box-sizing: border-box;
@@ -595,7 +595,7 @@
 }
 .content9 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   display: flex;
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
@@ -682,7 +682,7 @@
 }
 .content11 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   display: flex;
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
@@ -745,7 +745,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 0 3px;
+  padding: 0 0 0 var(--padding-10xs);
 }
 .heading-content1 {
   height: 21px;
@@ -768,7 +768,7 @@
 .cells13 {
   border-bottom: 1.5px solid var(--color-black);
   flex-direction: column;
-  color: var(--color-white);
+  color: var(--grey-white);
   font-family: var(--base-field-placeholder);
 }
 .line-roundedcalendar-icon14 {
@@ -1000,7 +1000,7 @@
 }
 .content17 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
   box-sizing: border-box;
@@ -1086,7 +1086,7 @@
 }
 .content19 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
   box-sizing: border-box;
@@ -1170,7 +1170,7 @@
 }
 .content21 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   display: flex;
   flex-direction: row;
   padding: var(--padding-base) var(--padding-5xl);
@@ -1250,7 +1250,7 @@
 }
 .content23 {
   height: 53px;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   padding: var(--padding-base) var(--padding-5xl);
   box-sizing: border-box;
 }
@@ -1303,7 +1303,7 @@
   display: flex;
   align-items: flex-start;
   text-align: center;
-  color: var(--color-white);
+  color: var(--grey-white);
   font-family: var(--base-field-placeholder);
 }
 .desktop-4-inner {
@@ -1316,20 +1316,20 @@
 .desktop-4 {
   width: 100%;
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 55px 30px 0 57px;
+  padding: 55px var(--padding-11xl) 0 var(--padding-38xl);
   box-sizing: border-box;
   gap: 90px;
   line-height: normal;
   letter-spacing: normal;
-  font-size: 45px;
+  font-size: var(--font-size-26xl);
 }
 @media screen and (max-width: 750px) {
   .explore-the-issues-container {
-    font-size: 36px;
+    font-size: var(--font-size-17xl);
   }
   .column,
   .desktop-4 {
@@ -1341,12 +1341,12 @@
   }
   .desktop-4 {
     gap: 45px;
-    padding-left: 28px;
+    padding-left: var(--padding-9xl);
   }
 }
 @media screen and (max-width: 675px) {
   .frame-container {
-    gap: 41px;
+    gap: var(--gap-22xl);
   }
 }
 @media screen and (max-width: 450px) {
@@ -1357,13 +1357,13 @@
     font-size: var(--font-size-xl);
   }
   .column1 {
-    padding-bottom: 70px;
+    padding-bottom: var(--padding-51xl);
     box-sizing: border-box;
   }
   .frame-container {
     gap: var(--gap-xl);
   }
   .desktop-4 {
-    gap: 22px;
+    gap: var(--gap-3xl);
   }
 }

@@ -146,13 +146,13 @@
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-6xl);
-  color: var(--color-white);
+  color: var(--grey-white);
   font-family: var(--base-field-placeholder);
 }
 .desktop-2 {
   width: 100%;
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -166,7 +166,7 @@
     font-size: var(--font-size-xl);
   }
   .report-an-issue {
-    font-size: 22px;
+    font-size: var(--font-size-3xl);
   }
   .resolve-existing-issues {
     font-size: var(--font-size-xl);

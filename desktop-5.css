@@ -5,7 +5,7 @@
   margin: 0;
   height: 72px;
   position: relative;
-  font-size: 50px;
+  font-size: var(--font-size-31xl);
   line-height: 36px;
   font-weight: 700;
   font-family: var(--base-field-placeholder);
@@ -216,13 +216,13 @@
 }
 .cards-grid-container {
   flex: 1;
-  border-radius: 20px;
+  border-radius: var(--br-xl);
   flex-wrap: wrap;
   gap: var(--gap-xl);
 }
 .cards-grid-container-wrapper {
   align-self: stretch;
-  padding: 0 2px;
+  padding: 0 var(--padding-11xs);
   box-sizing: border-box;
 }
 .field-label4,
@@ -295,8 +295,8 @@
 .button-default {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-4xs) 15px;
-  background-color: #fd5913;
+  padding: var(--padding-4xs) var(--padding-mini);
+  background-color: var(--color-orangered-100);
   flex-direction: row;
 }
 .button-default:hover {
@@ -321,7 +321,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 80px var(--padding-xl);
+  padding: var(--padding-61xl) var(--padding-xl);
   box-sizing: border-box;
   min-height: 681px;
   z-index: 2;
@@ -399,7 +399,7 @@
   width: 1482px;
   flex-direction: column;
   align-items: flex-end;
-  padding: 44px 249px 42px 0;
+  padding: 44px 249px var(--padding-23xl) 0;
   box-sizing: border-box;
   gap: 237px;
   flex-shrink: 0;
@@ -408,12 +408,12 @@
   z-index: 1;
   text-align: center;
   font-size: var(--font-size-xl);
-  color: var(--color-white);
+  color: var(--grey-white);
   font-family: var(--base-field-placeholder);
 }
 .desktop-5 {
   width: 100%;
-  background-color: var(--color-white);
+  background-color: var(--grey-white);
   overflow: hidden;
   flex-direction: row;
   align-items: flex-start;
@@ -433,7 +433,7 @@
     line-height: 29px;
   }
   .contact-form-parent {
-    padding-top: 29px;
+    padding-top: var(--padding-10xl);
     padding-bottom: var(--padding-8xl);
     box-sizing: border-box;
   }
@@ -449,18 +449,18 @@
   }
   .contact-form-parent {
     gap: 59px;
-    padding-right: 62px;
+    padding-right: var(--padding-43xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .section-title {
-    font-size: var(--font-size-11xl);
+    font-size: var(--h1-30px-sb-size);
     line-height: 22px;
   }
   .paragraph,
   .text-box {
-    font-size: var(--font-size-base);
+    font-size: var(--body-paragraph-16px-r-size);
     line-height: 16px;
   }
   .contact-form-parent {
