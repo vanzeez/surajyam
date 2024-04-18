@@ -1,0 +1,174 @@
+.icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.clip-path-group2,
+.mask-group-icon1 {
+  position: absolute;
+  height: 0.28%;
+  width: 34.47%;
+  top: 31.09%;
+  right: 6.72%;
+  bottom: 68.62%;
+  left: 58.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.mask-group-icon1 {
+  height: 27.25%;
+  width: 38.49%;
+  top: 6.25%;
+  right: 4.71%;
+  bottom: 66.5%;
+  left: 56.81%;
+  object-fit: contain;
+  z-index: 2;
+}
+.clip-path-group3 {
+  height: 7.39%;
+  width: 23.92%;
+  top: 74.41%;
+  right: 17.4%;
+  bottom: 18.19%;
+  left: 58.69%;
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.clip-path-group3,
+.icon2,
+.vector-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon {
+  height: 6.64%;
+  width: 23.19%;
+  top: 74.8%;
+  right: 17.78%;
+  bottom: 18.55%;
+  left: 59.03%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 2;
+}
+.icon2 {
+  top: 40px;
+  left: 40px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 4;
+}
+.clip-path-group4,
+.vector-icon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.clip-path-group4 {
+  height: 7.73%;
+  width: 23.94%;
+  top: 84.65%;
+  right: 17.38%;
+  bottom: 7.62%;
+  left: 58.69%;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-icon1 {
+  height: 6.74%;
+  width: 23.19%;
+  top: 85.16%;
+  right: 17.78%;
+  bottom: 8.11%;
+  left: 59.03%;
+  z-index: 2;
+}
+.sed-ut-perspiciatis {
+  position: absolute;
+  top: 376px;
+  left: 847px;
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  width: 496px;
+  height: 335px;
+  z-index: 1;
+}
+.report-an-issue,
+.resolve-existing-issues {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 3;
+}
+.report-an-issue {
+  margin: 0;
+  top: 784px;
+  left: 804px;
+  font-size: var(--font-size-8xl);
+  font-family: inherit;
+  width: 426px;
+  height: 31px;
+}
+.resolve-existing-issues {
+  top: 877px;
+  left: 864px;
+  font-size: 24.5px;
+  width: 307px;
+  height: 65px;
+}
+.frame-child {
+  position: absolute;
+  top: 64px;
+  left: 40px;
+  width: 1332.2px;
+  height: 882px;
+}
+.group {
+  height: 1024px;
+  flex: 1;
+  position: relative;
+  background-image: url(./public/5-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--base-field-placeholder);
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 450px) {
+  .sed-ut-perspiciatis {
+    font-size: var(--font-size-xl);
+  }
+  .report-an-issue {
+    font-size: 22px;
+  }
+  .resolve-existing-issues {
+    font-size: var(--font-size-xl);
+  }
+}

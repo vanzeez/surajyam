@@ -1,0 +1,227 @@
+.about-us,
+.contact-us,
+.get-started {
+  width: 188px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.get-started {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 31px;
+}
+.about-us,
+.contact-us {
+  height: 40px;
+}
+.about-us {
+  position: absolute;
+  top: 0;
+  left: 204px;
+}
+.contact-us {
+  margin-left: -31px;
+  position: relative;
+}
+.contact-us-wrapper {
+  position: absolute;
+  top: 0;
+  left: 392px;
+  width: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.our-policy {
+  position: absolute;
+  top: 0;
+  left: 549px;
+  font-weight: 500;
+  display: inline-block;
+  width: 188px;
+  height: 40px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.get-started-parent {
+  position: absolute;
+  top: 70px;
+  left: 740px;
+  width: 737px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--base-field-placeholder);
+}
+.icon,
+.wrapper-frame-2-child {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrapper-frame-2-child {
+  z-index: 1;
+  object-fit: contain;
+  left: 81px;
+  top: 66px;
+  transform: scale(5.15);
+}
+.wrapper-frame-2 {
+  position: absolute;
+  top: 24px;
+  left: -28px;
+  width: 212px;
+  height: 40px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 438px;
+  left: -43px;
+  width: 1037.5px;
+  height: 431.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.clip-path-group,
+.parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1440px;
+}
+.clip-path-group {
+  height: 13.57%;
+  width: 26.16%;
+  top: 72.66%;
+  right: 63.72%;
+  bottom: 13.77%;
+  left: 10.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.begin,
+.lorem-ipsum-niso {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+  width: 392px;
+}
+.begin {
+  margin: 0;
+  top: 787px;
+  left: 148px;
+  font-size: inherit;
+  font-family: inherit;
+  height: 62px;
+  z-index: 3;
+}
+.lorem-ipsum-niso {
+  top: 524px;
+  left: 96px;
+  font-size: var(--font-size-6xl);
+  height: 31px;
+  z-index: 2;
+}
+.clip-path-group1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 388px;
+  height: 139px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+}
+.work-with-us {
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 6px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 381px;
+  height: 122px;
+  z-index: 3;
+}
+.clip-path-group-parent {
+  position: absolute;
+  top: 744px;
+  left: 538px;
+  width: 388px;
+  height: 172px;
+  font-size: var(--font-size-11xl);
+}
+.desktop-1,
+.frame-parent {
+  height: 1024px;
+  position: relative;
+}
+.frame-parent {
+  margin-left: -43px;
+  width: 1483px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 103%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--base-field-placeholder);
+}
+.desktop-1 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 767px) {
+  .begin {
+    font-size: 32px;
+  }
+  .work-with-us {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .begin {
+    font-size: var(--font-size-5xl);
+  }
+  .lorem-ipsum-niso {
+    font-size: var(--font-size-xl);
+  }
+  .work-with-us {
+    font-size: var(--font-size-lg);
+  }
+}
